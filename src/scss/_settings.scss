@@ -1,0 +1,135 @@
+/* ibm-plex-sans-regular - latin_cyrillic */
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url("./files/fonts/ibm-plex-sans-v8-latin_cyrillic-regular.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("./files/fonts/ibm-plex-sans-v8-latin_cyrillic-regular.eot?#iefix") format("embedded-opentype"), url("./files/fonts/ibm-plex-sans-v8-latin_cyrillic-regular.woff2") format("woff2"), url("./files/fonts/ibm-plex-sans-v8-latin_cyrillic-regular.woff") format("woff"), url("./files/fonts/ibm-plex-sans-v8-latin_cyrillic-regular.ttf") format("truetype"), url("./files/fonts/ibm-plex-sans-v8-latin_cyrillic-regular.svg#IBMPlexSans") format("svg");
+  /* Legacy iOS */
+}
+
+/* ibm-plex-sans-500 - latin_cyrillic */
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: url("./files/fonts/ibm-plex-sans-v8-latin_cyrillic-500.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("./files/fonts/ibm-plex-sans-v8-latin_cyrillic-500.eot?#iefix") format("embedded-opentype"), url("./files/fonts/ibm-plex-sans-v8-latin_cyrillic-500.woff2") format("woff2"), url("./files/fonts/ibm-plex-sans-v8-latin_cyrillic-500.woff") format("woff"), url("./files/fonts/ibm-plex-sans-v8-latin_cyrillic-500.ttf") format("truetype"), url("./files/fonts/ibm-plex-sans-v8-latin_cyrillic-500.svg#IBMPlexSans") format("svg");
+  /* Legacy iOS */
+}
+
+/* ibm-plex-sans-600 - latin_cyrillic */
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: url("./files/fonts/ibm-plex-sans-v8-latin_cyrillic-600.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("./files/fonts/ibm-plex-sans-v8-latin_cyrillic-600.eot?#iefix") format("embedded-opentype"), url("./files/fonts/ibm-plex-sans-v8-latin_cyrillic-600.woff2") format("woff2"), url("./files/fonts/ibm-plex-sans-v8-latin_cyrillic-600.woff") format("woff"), url("./files/fonts/ibm-plex-sans-v8-latin_cyrillic-600.ttf") format("truetype"), url("./files/fonts/ibm-plex-sans-v8-latin_cyrillic-600.svg#IBMPlexSans") format("svg");
+  /* Legacy iOS */
+}
+
+/*-------------------------------------------------------------*/
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #062018;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+body {
+  font-family: "IBM Plex Sans";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+html,
+body {
+  min-height: 100vh !important;
+  height: 100% !important;
+  margin: 0;
+}
+
+main {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+}
+
+footer,
+header {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+
+*::before,
+*::after {
+  max-width: 100%;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+}
+
+img,
+svg {
+  display: block;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 1.15rem;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  color: #062018;
+  text-decoration: none;
+  font-family: "IBM Plex Sans";
+}
+
+p,
+span,
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  line-height: 1;
+  color: #062018;
+  font-family: "IBM Plex Sans";
+  text-decoration: none;
+  outline: none;
+}
+
+p:hover,
+span:hover,
+a:hover {
+  text-decoration: none;
+}
+
+input {
+  max-width: 100%;
+}

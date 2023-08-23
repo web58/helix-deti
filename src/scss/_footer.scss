@@ -1,0 +1,124 @@
+.footer {
+  padding-top: 40px;
+  padding-bottom: 30px;
+  background: #254A4C;
+  position: relative;
+
+  &__left {
+    padding-bottom: 40px;
+  }
+
+  &__middle {
+    padding-bottom: 40px;
+  }
+
+  &__logo {
+    width: 152px;
+    height: 50px;
+    display: block;
+    margin: 0 auto 8px auto;
+  }
+
+  &__logo svg {
+    width: 100%;
+    height: 100%;
+  }
+
+  &__logo-text {
+    font-size: 12px;
+    line-height: 120%;
+    text-align: center;
+    color: #FFFFFF;
+    width: 152px;
+    margin: 0 auto;
+  }
+
+  &__adress {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    color: #FFFFFF;
+    margin-bottom: 12px;
+  }
+
+  &__hours span {
+    font-size: 18px;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin-bottom: 4px;
+  }
+
+  &__hours p {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    color: #FFFFFF;
+  }
+
+  &__phone {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    color: #FFFFFF;
+    margin-bottom: 17px;
+    display: inline-block;
+  }
+
+  &__right {
+    text-align: left;
+  }
+
+  &__right .btn {
+    width: 177px;
+    height: 46px;
+    line-height: 46px;
+    font-size: 16px;
+    margin: 0 0 30px;
+  }
+
+  &__text {
+    margin-bottom: 40px;
+  }
+
+  &__text p {
+    font-size: 14px;
+    line-height: 150%;
+    text-align: left;
+    color: #FFFFFF;
+  }
+
+  &__politics {
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
+    text-decoration: underline;
+    margin-bottom: 8px;
+  }
+
+  &__author {
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
+  }
+
+  &__author a {
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
+  }
+
+  & #up {
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    right: 16px;
+    bottom: 20px;
+    cursor: pointer;
+    z-index: 10;
+  }
+
+  & #up svg {
+    width: 100%;
+    height: 100%;
+  }
+}

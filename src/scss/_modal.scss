@@ -1,0 +1,231 @@
+.overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: #FFFFFF;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  display: none;
+}
+
+.close-btn {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  z-index: 1001;
+  cursor: pointer;
+  width: 12px;
+  height: 12px;
+}
+
+.modal {
+  background: #FFFFFF;
+  -webkit-box-shadow: 2px 6px 18px rgba(37, 74, 76, 0.2);
+  box-shadow: 2px 6px 18px rgba(37, 74, 76, 0.2);
+  position: relative;
+  padding: 50px 20px 45px;
+  top: 47px;
+}
+
+.modal__title {
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+
+.modal__input {
+  width: 100%;
+  background: transparent;
+  border: 2px solid #062018;
+  font-size: 18px;
+  line-height: 53px;
+  height: 53px;
+  padding: 0 20px;
+  margin-bottom: 20px;
+  color: #062018;
+}
+
+.modal__input:focus {
+  border: 2px solid #3AAA35;
+}
+
+.modal__input::-webkit-input-placeholder {
+  font-size: 18px;
+  line-height: 53px;
+  color: #062018;
+}
+
+.modal__input::-moz-placeholder {
+  font-size: 18px;
+  line-height: 53px;
+  color: #062018;
+}
+
+.modal__input:-ms-input-placeholder {
+  font-size: 18px;
+  line-height: 53px;
+  color: #062018;
+}
+
+.modal__input::-ms-input-placeholder {
+  font-size: 18px;
+  line-height: 53px;
+  color: #062018;
+}
+
+.modal__input::placeholder {
+  font-size: 18px;
+  line-height: 53px;
+  color: #062018;
+}
+
+.modal__input:nth-child(3) {
+  margin-bottom: 40px;
+}
+
+.modal .btn {
+  margin: 0 auto 24px auto;
+  width: 100%;
+  max-width: 280px;
+}
+
+.modal__politics {
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+}
+
+.modal__politics a {
+  display: inline;
+}
+
+.modal-2 {
+  background: #FFFFFF;
+  position: relative;
+  padding: 50px 20px 45px;
+}
+
+#modal-3,
+#modal-4 {
+  overflow-y: scroll;
+}
+
+#modal-3 .row,
+#modal-4 .row {
+  top: 0;
+  padding-bottom: 60px;
+}
+
+#modal-3 .container,
+#modal-4 .container {
+  padding: 0;
+}
+
+#modal-3 .acc_body__text,
+#modal-4 .acc_body__text {
+  font-size: 18px;
+  line-height: 150%;
+  margin-bottom: 24px;
+}
+
+#modal-3 .acc_body__text a,
+#modal-4 .acc_body__text a {
+  font-size: 18px;
+  line-height: 150%;
+  text-decoration: underline;
+}
+
+#modal-3 .acc_body__text a:hover,
+#modal-4 .acc_body__text a:hover {
+  color: #3AAA35;
+}
+
+#modal-3 .acc_body__text-bold,
+#modal-4 .acc_body__text-bold {
+  font-size: 18px;
+  line-height: 140%;
+  margin-bottom: 16px;
+  font-weight: 600;
+}
+
+#modal-3 .acc_body__list,
+#modal-4 .acc_body__list {
+  margin-bottom: 24px;
+  padding-left: 18px;
+}
+
+#modal-3 .acc_body__list li,
+#modal-4 .acc_body__list li {
+  font-size: 18px;
+  line-height: 150%;
+  margin-bottom: 8px;
+  list-style-type: disc;
+}
+
+#modal-3 .acc_body__list li:last-child,
+#modal-4 .acc_body__list li:last-child {
+  margin-bottom: 0;
+}
+
+#modal-3 .acc_body__list li::marker,
+#modal-4 .acc_body__list li::marker {
+  color: #3AAA35;
+}
+
+#modal-3 table,
+#modal-4 table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 24px;
+}
+
+#modal-3 table th,
+#modal-3 table td,
+#modal-4 table th,
+#modal-4 table td {
+  width: 50%;
+  border: 1px solid #062018;
+  padding: 10px;
+  text-align: left;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+@media (min-width: 768px) {
+  .overlay .row {
+    height: 100vh;
+  }
+
+  .modal {
+    padding: 60px 63px 50px;
+    top: calc(50% - 246px);
+  }
+
+  .modal__politics {
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+  }
+
+  #modal-3 .container {
+    padding: 0 15px;
+  }
+
+  .modal-2 {
+    top: 40px;
+    -webkit-box-shadow: 2px 6px 18px rgba(37, 74, 76, 0.2);
+    box-shadow: 2px 6px 18px rgba(37, 74, 76, 0.2);
+  }
+}
+
+@media (min-width: 1200px) {
+  .modal {
+    padding: 80px 96px 70px;
+    top: calc(50% - 264px);
+  }
+
+  .modal-2 {
+    top: 60px;
+    padding: 60px 96px;
+  }
+}
